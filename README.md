@@ -27,4 +27,4 @@ Direct links:
 | [`0x02. Python - import & modules`](https://github.com/patrickolumba/alx-higher_level_programming/tree/master/0x02-python-import_modules) | It aims to learn about importing functions from another file and modules in **Python language**.|
 | [`0x03. Python - Data Structures: Lists, Tuples`](https://github.com/patrickolumba/alx-higher_level_programming/tree/master/0x03-python-data_structures) | This is data structures - lists and tuples - in **Python language**.|
 | [`0x04. Python - More Data Structures: Set, Dictionary`](https://github.com/patrickolumba/alx-higher_level_programming/tree/master/0x04-python-more_data_structures) | It aims to learn more about data structures - sets, dictionaries, lamda functions etc in **Python language**.|
-| [ `0x17.Python - Python Exception`](https://github.com/patrickolumba/alx-higher_level_programming/tree/main/0x05-python-exceptions) | Learning about exception handling in **Python language**.|
+| [ `0x05.Python - Python Exception`](https://github.com/patrickolumba/alx-higher_level_programming/tree/main/0x05-python-exceptions) | Learning about exception handling in **Python language**.|
