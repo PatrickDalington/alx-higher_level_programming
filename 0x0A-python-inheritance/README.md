@@ -1,6 +1,6 @@
 # Python - Inheritance
 
-This project teaches differences between super- and sub-classes while practicing inheritance,
+This project teaches the differences between super- and sub-classes while practicing inheritance,
 definining classes with multiple base classes, and overiding inherited methods
 and attributes.
 
