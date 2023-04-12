@@ -30,5 +30,6 @@ Direct links:
 | [ `0x05.Python - Python Exception`](https://github.com/patrickolumba/alx-higher_level_programming/tree/main/0x05-python-exceptions) | Learning about exception handling in **Python language**.|
 | [ `0x06.Python - Python Exception`](https://github.com/patrickolumba/alx-higher_level_programming/tree/main/0x06-classes) | In this section, learning classes and methods in **Python language**.|
 | [ `0x07.Python - Python Test Driven Development`](https://github.com/patrickolumba/alx-higher_level_programming/tree/main/0x07-python-test_driven_development) | So far learning test driven development in **Python language**.|
-| [ `0x07.Python - Python More Classes`](https://github.com/patrickolumba/alx-higher_level_programming/tree/main/0x08-python_more_classes) | Learning more about classes **Python language**.|
-| [ `0x07.Python - Python Object is Everything`](https://github.com/patrickolumba/alx-higher_level_programming/tree/main/0x09-python-everything_is_object) | Everything is really object in **Python language**.|
+| [ `0x08.Python - Python More Classes`](https://github.com/patrickolumba/alx-higher_level_programming/tree/main/0x08-python_more_classes) | Learning more about classes **Python language**.|
+| [ `0x09.Python - Python Object is Everything`](https://github.com/patrickolumba/alx-higher_level_programming/tree/main/0x09-python-everything_is_object) | Everything is really object in **Python language**.|
+| [ `0x0A-python - Python -inheritance`](https://github.com/patrickolumba/alx-higher_level_programming/tree/main/0x0A-python-inheritance) | Inheritance in **Python language**.|
