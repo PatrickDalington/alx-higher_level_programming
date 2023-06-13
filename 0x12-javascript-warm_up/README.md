@@ -1,6 +1,6 @@
 # Javascript - Warm up
 
-The following task is about writing various introductory-level JavaScript scripts on Node.js.
+Tasks below are introductory-level JavaScript scripts on Node.js.
 
 
 ## Function Prototypes :floppy_disk:
