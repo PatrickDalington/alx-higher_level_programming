@@ -1,22 +1,11 @@
 #!/usr/bin/node
-
-let i, j;
-let sqrRow;
-const args = process.argv;
-const iter = Number(args[2]);
-
-if (!iter) {
+if (process.argv[2] === undefined || isNaN(process.argv[2])) {
   console.log('Missing size');
 } else {
-  for (i = 0; i < iter; i++) {
-    sqrRow = 'X';
-
-    for (j = 0; j < iter; j++) {
-      if (j > 0) {
-        sqrRow += 'X';
-      }
-    }
-
-    console.log(sqrRow);
+  const x = Number(process.argv[2]);
+  let i = 0;
+  while (i < x) {
+    console.log('X'.repeat(x));
+    i++;
   }
 }

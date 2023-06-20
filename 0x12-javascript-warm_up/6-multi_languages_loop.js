@@ -1,9 +1,4 @@
 #!/usr/bin/node
-
-let index = 0;
-const langArray = ['C is fun', 'Python is cool', 'Javascript is amazing'];
-
-while (langArray[index]) {
-  console.log(langArray[index]);
-  index += 1;
+for (const line of ['C is fun', 'Python is cool', 'JavaScript is amazing']) {
+  console.log(line);
 }
