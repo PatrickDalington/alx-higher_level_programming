@@ -1,17 +1,31 @@
 #!/usr/bin/python3
-"""  lists all states from the database hbtn_0e_0_usa """
-import MySQLdb
-import sys
+
+"""
+    this script takes in arguments and displays all values
+    in the states table of hbtn_0e_0_usa where name matches the argument
+    this also guards against SQL injection
+"""
 
 
-if __name__ == "__main__":
-    db = MySQLdb.connect(host="localhost", user=sys.argv[1],
-                         passwd=sys.argv[2], db=sys.argv[3], port=3306)
-    cur = db.cursor()
-    match = sys.argv[4]
-    cur.execute("SELECT * FROM states WHERE name LIKE %s", (match, ))
-    rows = cur.fetchall()
-    for row in rows:
-        print(row)
-    cur.close()
-    db.close()
+if __name__ == '__main__':
+    import sys
+    import MySQLdb
+
+    iter = 0
+
+    host = 'localhost'
+    username = sys.argv[1]
+    password = sys.argv[2]
+    database = sys.argv[3]
+    stateName = sys.argv[4]
+
+    db = MySQLdb.connect(host=host, user=username, passwd=password,
+                         db=database)
+    cursor = db.cursor()
+    cursor.execute("SELECT * FROM states WHERE name='{}' ORDER BY ID".format(
+        (stateName)))
+    result = cursor.fetchall()
+
+    while (iter < len(result)):
+        print(f"({result[iter][0]}, '{result[iter][1]}')")
+        iter += 1

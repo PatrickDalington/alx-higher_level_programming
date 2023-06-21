@@ -1,18 +1,25 @@
 #!/usr/bin/python3
+
 """
-Contains State class and Base, an instance of declarative_base()
+    this module defines a State class
+    that inherits from declarative_base
 """
-from sqlalchemy import Column, Integer, String, MetaData
+
+
+import sqlalchemy
+from sqlalchemy import Column, Integer, String
 from sqlalchemy.ext.declarative import declarative_base
 
-mymetadata = MetaData()
-Base = declarative_base(metadata=mymetadata)
+Base = declarative_base()
 
 
 class State(Base):
     """
-    Class with id and name attributes of each state
+        this states class inherits from declarative base
+        and defines a State table with columns(id, name)
     """
+
     __tablename__ = 'states'
-    id = Column(Integer, unique=True, nullable=False, primary_key=True)
+
+    id = Column(Integer, primary_key=True, nullable=False)
     name = Column(String(128), nullable=False)
