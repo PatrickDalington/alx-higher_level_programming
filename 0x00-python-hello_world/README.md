@@ -52,4 +52,4 @@ What is the official Python coding style and how to check your code with `pycode
 * **12. Compile** - Write a script that compiles a Python script file. - `101-compile`.
 * **13. ByteCode -> Python #1** - Write the Python function `def magic_calculation(a, b):` that does exactly the same as the given Python bytecode. - `102-magic_calculation.py`.
 
-Thank you.
+Thank you...
